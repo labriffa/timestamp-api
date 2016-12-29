@@ -9,6 +9,9 @@
   "author": "Lewis Briffa",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "pug": "^0.1.0",
+    "stylus": "^0.54.5",
+    "unix-timestamp": "^0.2.0"
   }
 }
