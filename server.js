@@ -1,5 +1,6 @@
 var express = require("express");
 var dateconverter = require("./date-converter");
+var dateformatter = require("./date-formatter");
 var app = express();
 
 app.set('views', __dirname + '/views');
@@ -22,7 +23,7 @@ app.get('/:date', function(req, res){
     // unix timestamp passed.
     if(/^\d+$/.test(query)) {
         unix = query,
-        natural = dateconverter.unixToNatural(+query)
+        natural = dateformatter.format(new Date(dateconverter.unixToNatural(+query)))
     }
     
     // natural date passed.
