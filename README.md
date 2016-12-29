@@ -7,7 +7,7 @@
 ## Examples
 ### Natural > Unix
 
-https://infinite-cliffs-17971.herokuapp.com/January, 4, 1991
+https://infinite-cliffs-17971.herokuapp.com/January,4,1991
 #### Returns
 
 { "unix": 662947200, "natural": "January, 4, 1991" }
