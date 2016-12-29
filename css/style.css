@@ -6,7 +6,8 @@ body {
 a {
   color: #44d0ad;
 }
-a:hover {
+a:hover,
+a:focus {
   color: #81dfc8;
 }
 h2 {
